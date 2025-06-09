@@ -47,8 +47,8 @@ To address missing residues, atoms, or hydrogens, the notebook uses PDBFixer to 
 
 ---
 
-## 9. **File Format Conversion with Open Babel**
-The notebook converts both the fixed protein PDB file and the prepared ligand SDF file to PDBQT format using Open Babel. The PDBQT format is required for docking with AutoDock Vina and similar tools. The conversion process includes adding hydrogens and computing atomic charges.
+## 9. **File Format Conversion with Open Babel/ Meeko / Pdb2pqr**
+The notebook converts both the fixed protein PDB file and the prepared ligand SDF file to PDBQT format using Open Babel / Meeko / Pdb2pqr. The PDBQT format is required for docking with AutoDock Vina and similar tools. The conversion process includes adding hydrogens and computing atomic charges.
 
 ---
 
